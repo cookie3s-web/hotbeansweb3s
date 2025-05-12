@@ -1,0 +1,446 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+
+        .header {
+            background-color: #54414E;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            background-color: #54414E;
+        }
+
+        .logo img {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #54414E;
+            padding: 10px 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .apply-btn {
+            background-color: #ff5e2f;
+            color: #fff;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+
+        .main {
+            background-color: #887ca8;
+            padding: 180px;
+            text-align: center;
+        }
+
+        .welcome-box {
+            background-color: #455a7e;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            width: 400%;
+            max-width: 600px;
+        }
+
+        .welcome-box h1 {
+            color: #ffd3b6;
+        }
+
+        .welcome-box p {
+            color: white;
+            margin-top: 10px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .welcome-box, .about-box {
+            flex: 1 1 45%;
+        }
+        
+        .about-box {
+            background-color: #2C3E50;
+            padding: 30px;
+            border-radius: 10px;
+            color: #FFFFFF;
+            max-width: 600px;
+        }
+        
+        .about-box h2 {
+            color: #FF6B6B;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .welcome-box, .about-box {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+
+/*team*/
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #54414e;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.apply-button {
+    background-color: #f89b77;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+    background-color: #f5f5f5;
+    min-height: 90vh;
+}
+
+.dark-bg {
+    background-color: #887ca8;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.content-box {
+    background-color: #4b628b;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.main-img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.team-box {
+    background-color: #4b628b;
+    color: #c4e1af;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: #e0e0e0;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+.team-img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+/*careers*/
+
+nav {
+    background-color: #54414E; 
+    padding: 15px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #c7f2b6; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+main {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #887ca8;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #c4e1af;
+}
+
+.careers-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.career-card {
+    background-color: #455a7e;
+    padding: 20px;
+    border-radius: 12px;
+    
+
+}
+
+.career-card h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.career-card p {
+    margin: 8px 0;
+    color: #ffffff;
+}
+
+.apply-button {
+    background-color: #ff5e2f;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #e84e1f;
+}
+
+/*courses*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #887ca8;
+  }
+  
+  nav {
+    background-color: #54414E   ;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin: 30px 0 10px;
+  }
+  
+  .courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 30px 40px;
+  }
+  
+  .course-card {
+    background-color: #455a7e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card h2 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .course-card p {
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .learn-btn {
+    display: inline-block;
+    background-color: #e25b3c;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .learn-btn:hover {
+    background-color: #c6452b;
+  }
+  .apply-button {
+    background-color: #ff5e2f;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #e84e1f;
+}
+/*apply*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #455a7e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .submit-btn {
+    background-color: #e25b3c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #c6452b;
+  }
+
+  .site-footer {
+    background-color: #b0d59a;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 14px;
+}
